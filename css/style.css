@@ -108,9 +108,14 @@ html {
   max-width: 100%;
   flex-basis: 50%;
 }
+
 .card .image img {
   width: 100%;
   max-width: 100%;
+  transition: .3s;
+}
+.card .image img:hover {
+  transform: scale(1.2) ;
 }
 .card .text {
   flex-basis: 60%;
@@ -118,6 +123,11 @@ html {
   background-color: white;
   position: relative;
 }
+.card .text:hover {
+background-color: rgb(180, 214, 214);
+color: white;
+
+} 
 @media (max-width: 767px) {
   .card .text {
     padding: 10px;
@@ -227,6 +237,9 @@ html {
   max-width: 100%;
   left: 20px;
   bottom: 12px;
+}
+.card .cart:hover {
+  background-color: darkcyan;
 }
 @media (max-width: 767px) {
   .card .cart {
