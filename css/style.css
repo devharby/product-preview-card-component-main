@@ -123,6 +123,11 @@ html {
     padding: 10px;
   }
 }
+@media (min-width: 1440px) {
+  .card  {
+    padding-top: 100px;
+  }
+}
 .card .text span {
   position: relative;
   text-transform: uppercase;
